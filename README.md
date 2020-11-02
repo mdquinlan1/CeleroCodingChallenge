@@ -17,8 +17,12 @@ A coding challenge for CeleroCommerce as part of the interview.
   - The application is set up to easily allow implementation of json parsing by using the repository to extract the json (using most likely gson and retrofit), and then storing that parsed information into the database (ROOM). This allows the persistence of data (while internet is unavailable). Should the json on the server be updated or modified while the device has no access to the server (internet unavailable), once internet is restored, the repository will parse the data and update the table in the database.
   - The viewmodel has access to the database and can then display the data in an easy to read fashion.
   ---
+  
+### TODO
+  ## Iteration 2
+  - Since there are a number of things I was unable to complete, I plan on continuing to work on this project despite it being only for the interview as to help strengthen my skills in android development.
+  - Next critical component to be implemented: json parsing by the repository into the database.
 ---
 
----
 
 
